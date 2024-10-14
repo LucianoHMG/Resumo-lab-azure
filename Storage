@@ -1,0 +1,78 @@
+# Azure Cloud Storage & AzCopy
+
+Este repositório contém informações e exemplos práticos sobre como utilizar o **Armazenamento na Nuvem Azure** e ferramentas associadas, como o **AzCopy**, para gerenciar dados de maneira eficiente.
+
+## Índice
+
+- [Introdução ao Azure Storage](#introdução-ao-azure-storage)
+- [Tipos de Armazenamento no Azure](#tipos-de-armazenamento-no-azure)
+- [Instalando e Configurando o AzCopy](#instalando-e-configurando-o-azcopy)
+- [Comandos AzCopy](#comandos-azcopy)
+  - [Autenticação](#autenticação)
+  - [Copiando Arquivos](#copiando-arquivos)
+  - [Sincronizando Diretórios](#sincronizando-diretórios)
+  - [Excluindo Arquivos](#excluindo-arquivos)
+- [Boas Práticas](#boas-práticas)
+- [Referências](#referências)
+
+## Introdução ao Azure Storage
+
+O **Azure Storage** é uma solução de armazenamento de dados escalável e segura oferecida pela **Microsoft Azure**, que permite o armazenamento de grandes volumes de dados para diferentes finalidades, incluindo arquivos, blobs (objetos binários), tabelas e filas. Ele é amplamente utilizado para:
+
+- Armazenamento de arquivos não estruturados (Blobs)
+- Armazenamento de discos de máquinas virtuais
+- Backup e recuperação de dados
+- Compartilhamento de arquivos em nuvem
+- Armazenamento de logs e arquivos de grandes volumes
+
+## Tipos de Armazenamento no Azure
+
+O Azure oferece vários tipos de armazenamento, sendo os principais:
+
+- **Blob Storage**: Ideal para armazenar grandes volumes de dados não estruturados.
+- **File Storage**: Permite o compartilhamento de arquivos na nuvem através de protocolos SMB e NFS.
+- **Queue Storage**: Armazena mensagens para processamento assíncrono entre aplicações.
+- **Table Storage**: Um armazenamento NoSQL para grandes volumes de dados estruturados.
+
+## Instalando e Configurando o AzCopy
+
+O **AzCopy** é uma ferramenta de linha de comando que permite mover e gerenciar arquivos dentro do Azure Storage de forma rápida e eficiente. Ele é otimizado para operações em grandes volumes de dados, como backup e sincronização.
+
+### Instalação
+
+Para instalar o AzCopy, você pode baixar o arquivo adequado ao seu sistema operacional (Windows, Linux ou MacOS) e extrair o conteúdo. Opcionalmente, adicione o AzCopy ao seu PATH para facilitar o uso.
+
+### Configuração
+
+Após a instalação, é necessário autenticar-se no Azure por meio de um processo interativo que envolve a execução de um comando para login, abrindo uma janela de autenticação no navegador.
+
+## Comandos AzCopy
+
+### Autenticação
+
+Depois de instalar e configurar o AzCopy, utilize um comando para fazer login com sua conta Azure.
+
+### Copiando Arquivos
+
+O AzCopy permite copiar arquivos individuais ou diretórios inteiros de sua máquina local para o Azure Blob Storage.
+
+### Sincronizando Diretórios
+
+Você também pode sincronizar diretórios locais com o armazenamento do Azure, garantindo que todos os arquivos estejam atualizados.
+
+### Excluindo Arquivos
+
+O AzCopy possibilita a remoção de arquivos diretamente do contêiner do Azure Blob Storage.
+
+## Boas Práticas
+
+- **Automatização**: Combine o AzCopy com scripts ou ferramentas de agendamento para automação de backup e sincronização.
+- **Gerenciamento de Logs**: Utilize opções de log para registrar atividades detalhadas de suas operações.
+- **SAS Tokens**: Gere **SAS tokens** com permissões mínimas para cada operação, melhorando a segurança.
+- **Verificação de Integridade**: Verifique a integridade dos arquivos copiados utilizando mecanismos de verificação como checksums.
+
+## Referências
+
+- [Documentação Oficial do AzCopy](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10)
+- [Azure Storage Overview](https://docs.microsoft.com/azure/storage/)
+- [Exemplos Práticos de Uso](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-portal)
