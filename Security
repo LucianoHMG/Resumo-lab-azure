@@ -1,0 +1,28 @@
+# Segurança na Azure Cloud com Microsoft
+
+Este repositório fornece uma visão geral das principais camadas de segurança oferecidas pela Azure Cloud, focando na proteção dos serviços da Microsoft. O Azure oferece soluções abrangentes para garantir a segurança e a conformidade de seus dados e sistemas, permitindo a implementação de políticas robustas de proteção contra ameaças.
+
+## Camadas de Segurança no Azure
+
+### 1. **Microsoft Entra ID (Azure Active Directory)**
+O Microsoft Entra ID oferece autenticação multifator, gerenciamento de identidades e Single Sign-On (SSO), garantindo que apenas usuários autorizados tenham acesso aos recursos da Microsoft.
+
+### 2. **Microsoft Defender for Cloud**
+Uma solução de gerenciamento de segurança que fornece monitoramento em tempo real, detecta ameaças e oferece recomendações para proteger recursos da Microsoft na nuvem.
+
+### 3. **Azure Firewall e Network Security Groups (NSG)**
+Essas soluções controlam o tráfego de rede, permitindo que você proteja os serviços Microsoft de acessos não autorizados, garantindo a filtragem e inspeção de pacotes.
+
+### 4. **Criptografia e Gerenciamento de Chaves (Azure Key Vault)**
+O Azure oferece criptografia de dados em trânsito e em repouso, além de um gerenciamento seguro de chaves e certificados através do Azure Key Vault.
+
+### 5. **Conformidade e Governança (Azure Policy e Blueprints)**
+Essas ferramentas permitem que você implemente e mantenha a conformidade com as normas de segurança e governança, automatizando políticas e auditando seu ambiente.
+
+## Benefícios
+- **Proteção integrada** para todos os serviços Microsoft na Azure Cloud.
+- **Ferramentas avançadas de monitoramento** para detecção e mitigação de ameaças.
+- **Conformidade automática** com padrões internacionais de segurança.
+
+## Conclusão
+A Azure Cloud, junto aos serviços da Microsoft, fornece uma plataforma segura e confiável para a proteção de dados e recursos na nuvem. Implementando as soluções mencionadas, você pode garantir a segurança e conformidade dos seus projetos.
