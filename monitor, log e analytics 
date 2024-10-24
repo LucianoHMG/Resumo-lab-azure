@@ -1,0 +1,74 @@
+# Gerenciamento e Monitoramento com Azure Monitor
+
+Este repositório explora o **Azure Monitor**, uma solução abrangente de monitoramento no Microsoft Azure. O **Azure Monitor** permite que você visualize, consulte e aja sobre dados de diagnóstico, logs e métricas de seus serviços em nuvem e infraestrutura. Ele é essencial para garantir a alta disponibilidade, segurança e desempenho dos seus recursos no Azure.
+
+### O que é Azure Monitor?
+
+O **Azure Monitor** coleta dados de telemetria em tempo real de seus serviços e aplicativos, ajudando você a entender o desempenho deles e identificar possíveis problemas. Com ferramentas como **Azure Log Analytics** e **Alertas do Azure Monitor**, você pode aprofundar suas análises e agir rapidamente diante de incidentes.
+
+### Componentes do Azure Monitor
+
+#### 1. Azure Log Analytics
+
+O **Azure Log Analytics** é a ferramenta de consulta e análise de dados de log dentro do Azure Monitor. Ele permite:
+
+- **Centralização de Logs**: Colete dados de logs de diferentes fontes, como VMs, clusters de Kubernetes, serviços do Azure e muito mais.
+- **Consultas Poderosas**: Use a linguagem Kusto Query Language (KQL) para consultar dados e obter insights acionáveis.
+- **Análise Avançada**: Correlacione dados de diferentes serviços para obter uma visão abrangente do desempenho e integridade da sua infraestrutura.
+
+Exemplo de uma consulta KQL simples para visualizar o uso de CPU de VMs:
+```kusto
+Perf
+| where ObjectName == "Processor" and CounterName == "% Processor Time"
+| summarize avg(CounterValue) by bin(TimeGenerated, 1h)
+| render timechart
+
+
+Azure Monitor Alerts
+
+Os Alertas do Azure Monitor permitem monitorar as métricas e logs em tempo real, notificando sua equipe sobre anomalias ou violações de limites previamente definidos. Com essa funcionalidade, você pode:
+
+Monitoramento Proativo: Configure alertas com base em métricas ou logs, como consumo de CPU, falhas de transações ou uso de armazenamento.
+
+Notificações Instantâneas: Receba notificações por email, SMS ou integrações com sistemas como Microsoft Teams e Slack.
+
+Automação de Respostas: Integre alertas com Runbooks do Azure Automation para agir automaticamente quando um alerta for acionado, reduzindo o tempo de resposta.
+
+
+Exemplo de criação de um alerta para monitorar o uso de CPU:
+
+Métrica: Uso da CPU (em VMs)
+
+Condição: Acionar um alerta quando o uso da CPU ultrapassar 80% por 5 minutos consecutivos.
+
+Ação: Enviar notificação para o time de operações via email e Teams.
+
+
+Vantagens de Usar o Azure Monitor
+
+Visibilidade Completa: Monitore todos os seus recursos, tanto na nuvem quanto em ambientes híbridos.
+
+Ação Rápida: Identifique problemas e resolva-os rapidamente com alertas e ações automatizadas.
+
+Otimização de Recursos: Use insights detalhados para otimizar o desempenho e reduzir custos operacionais.
+
+Segurança e Conformidade: Mantenha uma visão centralizada sobre a integridade dos recursos e garanta que sua infraestrutura esteja em conformidade com as políticas da organização.
+
+
+Casos de Uso
+
+Monitoramento de Aplicações Críticas: Acompanhe métricas de performance de aplicativos críticos em tempo real para garantir que eles estejam sempre disponíveis e operando corretamente.
+
+Análise de Logs Centralizada: Utilize o Azure Log Analytics para coletar e correlacionar dados de várias fontes, facilitando a análise e resolução de problemas.
+
+Automação de Resposta a Incidentes: Crie runbooks que automatizam a resposta a problemas recorrentes, como aumentar automaticamente a capacidade de um recurso quando ele atinge um limite crítico.
+
+
+Conclusão
+
+O Azure Monitor é uma solução poderosa para gerenciamento e monitoramento de infraestrutura e aplicativos em nuvem. Ao utilizar ferramentas como Azure Log Analytics e Azure Monitor Alerts, você pode melhorar a visibilidade e a proatividade na resolução de problemas, garantindo a máxima eficiência e segurança para sua infraestrutura.
+
+Contato
+
+Luciano Henrique Morais Girão
+Email: lucianowtp@gmail.com
