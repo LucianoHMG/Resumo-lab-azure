@@ -67,6 +67,13 @@ Monitoramento Proativo: Utilize o painel centralizado e configure alertas para m
 
 Gerenciamento Híbrido com Azure Arc: Unifique o gerenciamento de infraestruturas locais e em múltiplas nuvens com o Azure Arc para manter uma governança robusta e visibilidade de ponta a ponta.
 
+Documentações 
+
+1. Azure Resource Manager: Esta documentação é essencial para entender o serviço de gerenciamento e implantação do Azure, que permite gerenciar seus recursos usando infraestrutura como código. Você pode acessar a documentação aqui:
+ https://azure.microsoft.com/pt-br/get-started/azure-portal/resource-manager
+
+
+2. Azure Monitor: O Azure Monitor fornece insights sobre o desempenho e a saúde de seus aplicativos, permitindo que você agregue e analise métricas, logs e traces. É fundamental para a monitorização de serviços no Azure. Confira mais informações aqui: Azure Monitor Documentation. https://learn.microsoft.com/pt-br/azure/azure-resource-manager/management/overview
 
 Conclusão
 
