@@ -1,0 +1,120 @@
+# 📊 Otimização de Custos no Microsoft Azure
+
+Bem-vindo ao repositório de **Otimização de Custos no Microsoft Azure**! Este guia abrange ferramentas e práticas essenciais para gerenciar e reduzir seus gastos na nuvem, ajudando sua organização a obter o máximo valor dos serviços do Azure.
+
+---
+
+### 📚 Índice
+
+- [🔍 Introdução](#introdução)
+- [💡 Importância da Otimização de Custos](#importância-da-otimização-de-custos)
+- [🛠️ Ferramentas de Otimização de Custos](#ferramentas-de-otimização-de-custos)
+  - [1. Azure Cost Management](#1-azure-cost-management)
+  - [2. Azure Advisor](#2-azure-advisor)
+  - [3. Azure Reservations](#3-azure-reservations)
+  - [4. Azure Hybrid Benefit](#4-azure-hybrid-benefit)
+  - [5. Azure Dev/Test Pricing](#5-azure-devtest-pricing)
+  - [6. Azure Pricing Calculator](#6-azure-pricing-calculator)
+- [📈 Estratégias de Otimização de Custos](#estratégias-de-otimização-de-custos)
+- [💻 Exemplos de Uso](#exemplos-de-uso)
+- [✅ Melhores Práticas](#melhores-práticas)
+- [🤝 Contribuições](#contribuições)
+- [📜 Licença](#licença)
+- [📧 Contato](#contato)
+
+---
+
+### 🔍 Introdução
+
+O Microsoft Azure é uma plataforma poderosa que oferece uma vasta gama de serviços em nuvem. No entanto, gerenciar os custos associados a esses serviços pode ser um desafio. Este repositório reúne informações e recursos para ajudar as equipes a entender e otimizar seus gastos no Azure.
+
+### 💡 Importância da Otimização de Custos
+
+A otimização de custos é crucial para garantir que as organizações obtenham o máximo valor de seus investimentos em nuvem. Com a crescente adoção de serviços em nuvem, a gestão eficiente dos gastos se torna uma prioridade. A otimização de custos não apenas reduz despesas, mas também melhora a agilidade e a eficiência operacional.
+
+---
+
+### 🛠️ Ferramentas de Otimização de Custos
+
+### 1. Azure Cost Management
+- **Descrição:** Ferramenta que fornece insights sobre os gastos com recursos do Azure.
+- **Recursos:**
+  - Relatórios personalizáveis.
+  - Alertas de orçamento.
+  - Análise de tendências de gastos.
+
+### 2. Azure Advisor
+- **Descrição:** Serviço que fornece recomendações personalizadas para melhorar a eficiência e reduzir custos.
+- **Recursos:**
+  - Avaliações de desempenho.
+  - Sugestões para economizar custos.
+  - Relatórios de segurança e confiabilidade.
+
+### 3. Azure Reservations
+- **Descrição:** Permite a compra de recursos do Azure com descontos significativos.
+- **Recursos:**
+  - Economias de até 72% em comparação com preços sob demanda.
+  - Flexibilidade para alterar ou cancelar reservas.
+
+### 4. Azure Hybrid Benefit
+- **Descrição:** Permite usar licenças existentes para reduzir custos em implementações na nuvem.
+- **Recursos:**
+  - Redução significativa nos custos operacionais.
+  - Suporte para cenários híbridos.
+
+### 5. Azure Dev/Test Pricing
+- **Descrição:** Preços reduzidos para ambientes de desenvolvimento e teste.
+- **Recursos:**
+  - Redução de custos em serviços como VMs, bancos de dados e armazenamento.
+  - Suporte para ambientes de teste e desenvolvimento.
+
+### 6. Azure Pricing Calculator
+- **Descrição:** Ferramenta online para estimar os custos de diferentes serviços do Azure.
+- **Recursos:**
+  - Estimativas de custos em tempo real.
+  - Comparação entre diferentes serviços e configurações.
+
+---
+
+### 📈 Estratégias de Otimização de Custos
+
+1. **Análise Regular dos Custos:** Realizar auditorias frequentes para identificar áreas de desperdício.
+2. **Uso de Tags:** Implementar tagging para categorizar recursos, facilitando o rastreamento.
+3. **Escalonamento Automático:** Utilizar recursos que permitem escalonamento automático.
+4. **Monitoramento de Utilização:** Implementar monitoramento contínuo para identificar recursos ociosos.
+
+---
+
+### 💻 Exemplos de Uso
+
+Este repositório contém scripts e exemplos práticos, incluindo:
+
+- Configuração de alertas de orçamento no Azure Cost Management.
+- Como utilizar Azure Advisor para melhorar a eficiência operacional.
+- Exemplos de implementação de Azure Reservations.
+
+---
+
+### ✅ Melhores Práticas
+
+- **Revisar Mensalmente os Relatórios de Custos:** Ajuda a identificar tendências e ajustar a estratégia.
+- **Educate Teams:** Treinar as equipes sobre a importância da otimização de custos.
+- **Integrar Práticas de Otimização em Processos de Negócio:** Tornar a otimização uma parte da estratégia de negócios.
+
+---
+
+### 🤝 Contribuições
+
+Contribuições são bem-vindas! Se você possui sugestões, exemplos ou melhorias, sinta-se à vontade para abrir um Pull Request.
+
+---
+
+### 📜 Licença
+
+Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+### 📧 Contato
+
+Para dúvidas ou sugestões, entre em contato através de **Luciano Henrique Morais Girão** em [lucianowtp@gmail.com].
