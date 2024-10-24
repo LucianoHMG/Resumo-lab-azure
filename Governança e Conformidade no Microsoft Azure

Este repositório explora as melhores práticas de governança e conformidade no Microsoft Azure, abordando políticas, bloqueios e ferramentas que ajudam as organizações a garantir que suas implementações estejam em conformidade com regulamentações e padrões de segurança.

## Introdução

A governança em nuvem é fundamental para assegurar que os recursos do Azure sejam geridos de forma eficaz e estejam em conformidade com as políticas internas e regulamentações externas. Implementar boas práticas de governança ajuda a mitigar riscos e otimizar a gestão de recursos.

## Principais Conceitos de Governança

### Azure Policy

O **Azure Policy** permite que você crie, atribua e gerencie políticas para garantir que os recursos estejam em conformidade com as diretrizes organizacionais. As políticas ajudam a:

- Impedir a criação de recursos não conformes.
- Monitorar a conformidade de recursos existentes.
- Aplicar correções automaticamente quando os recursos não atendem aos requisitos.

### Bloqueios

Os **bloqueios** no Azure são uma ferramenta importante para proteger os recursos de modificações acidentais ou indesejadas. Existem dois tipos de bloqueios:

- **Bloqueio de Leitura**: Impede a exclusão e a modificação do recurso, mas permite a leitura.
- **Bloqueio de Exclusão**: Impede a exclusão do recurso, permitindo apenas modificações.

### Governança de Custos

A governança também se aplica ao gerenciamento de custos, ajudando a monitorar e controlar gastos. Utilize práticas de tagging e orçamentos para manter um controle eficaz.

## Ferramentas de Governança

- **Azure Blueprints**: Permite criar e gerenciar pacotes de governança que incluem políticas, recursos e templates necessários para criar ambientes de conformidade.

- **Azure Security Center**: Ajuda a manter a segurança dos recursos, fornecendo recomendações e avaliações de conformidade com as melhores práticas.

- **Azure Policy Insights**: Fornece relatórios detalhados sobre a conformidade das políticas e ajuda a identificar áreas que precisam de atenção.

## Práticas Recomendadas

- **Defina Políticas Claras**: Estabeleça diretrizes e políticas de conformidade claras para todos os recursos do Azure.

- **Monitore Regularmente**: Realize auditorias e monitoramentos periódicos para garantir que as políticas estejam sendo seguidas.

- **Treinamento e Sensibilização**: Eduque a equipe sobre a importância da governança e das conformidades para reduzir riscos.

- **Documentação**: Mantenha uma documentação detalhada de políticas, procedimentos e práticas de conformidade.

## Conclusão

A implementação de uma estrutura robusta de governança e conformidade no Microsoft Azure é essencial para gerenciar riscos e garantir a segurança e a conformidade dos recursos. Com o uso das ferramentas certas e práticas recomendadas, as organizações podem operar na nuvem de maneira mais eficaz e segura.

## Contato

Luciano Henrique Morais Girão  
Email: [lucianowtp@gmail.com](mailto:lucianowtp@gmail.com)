@@ -1,0 +1,55 @@
+# Governança e Conformidade no Microsoft Azure
+
+Este repositório explora as melhores práticas de governança e conformidade no Microsoft Azure, abordando políticas, bloqueios e ferramentas que ajudam as organizações a garantir que suas implementações estejam em conformidade com regulamentações e padrões de segurança.
+
+## Introdução
+
+A governança em nuvem é fundamental para assegurar que os recursos do Azure sejam geridos de forma eficaz e estejam em conformidade com as políticas internas e regulamentações externas. Implementar boas práticas de governança ajuda a mitigar riscos e otimizar a gestão de recursos.
+
+## Principais Conceitos de Governança
+
+### Azure Policy
+
+O **Azure Policy** permite que você crie, atribua e gerencie políticas para garantir que os recursos estejam em conformidade com as diretrizes organizacionais. As políticas ajudam a:
+
+- Impedir a criação de recursos não conformes.
+- Monitorar a conformidade de recursos existentes.
+- Aplicar correções automaticamente quando os recursos não atendem aos requisitos.
+
+### Bloqueios
+
+Os **bloqueios** no Azure são uma ferramenta importante para proteger os recursos de modificações acidentais ou indesejadas. Existem dois tipos de bloqueios:
+
+- **Bloqueio de Leitura**: Impede a exclusão e a modificação do recurso, mas permite a leitura.
+- **Bloqueio de Exclusão**: Impede a exclusão do recurso, permitindo apenas modificações.
+
+### Governança de Custos
+
+A governança também se aplica ao gerenciamento de custos, ajudando a monitorar e controlar gastos. Utilize práticas de tagging e orçamentos para manter um controle eficaz.
+
+## Ferramentas de Governança
+
+- **Azure Blueprints**: Permite criar e gerenciar pacotes de governança que incluem políticas, recursos e templates necessários para criar ambientes de conformidade.
+
+- **Azure Security Center**: Ajuda a manter a segurança dos recursos, fornecendo recomendações e avaliações de conformidade com as melhores práticas.
+
+- **Azure Policy Insights**: Fornece relatórios detalhados sobre a conformidade das políticas e ajuda a identificar áreas que precisam de atenção.
+
+## Práticas Recomendadas
+
+- **Defina Políticas Claras**: Estabeleça diretrizes e políticas de conformidade claras para todos os recursos do Azure.
+
+- **Monitore Regularmente**: Realize auditorias e monitoramentos periódicos para garantir que as políticas estejam sendo seguidas.
+
+- **Treinamento e Sensibilização**: Eduque a equipe sobre a importância da governança e das conformidades para reduzir riscos.
+
+- **Documentação**: Mantenha uma documentação detalhada de políticas, procedimentos e práticas de conformidade.
+
+## Conclusão
+
+A implementação de uma estrutura robusta de governança e conformidade no Microsoft Azure é essencial para gerenciar riscos e garantir a segurança e a conformidade dos recursos. Com o uso das ferramentas certas e práticas recomendadas, as organizações podem operar na nuvem de maneira mais eficaz e segura.
+
+## Contato
+
+Luciano Henrique Morais Girão  
+Email: [lucianowtp@gmail.com](mailto:lucianowtp@gmail.com)
