@@ -1,0 +1,66 @@
+# Microsoft Azure Cloud - Introdução
+
+Este documento oferece um resumo sobre o uso dos serviços IaaS, PaaS, e SaaS na plataforma Microsoft Azure.
+
+## O que é Microsoft Azure Cloud?
+
+A Microsoft Azure é uma plataforma de **nuvem** que oferece soluções flexíveis para infraestrutura, plataformas de desenvolvimento e software como serviço.
+
+---
+
+## 🛠 1. **IaaS (Infraestrutura como Serviço)**
+
+### O que é IaaS?
+IaaS oferece a infraestrutura de TI completa como serviço, com controle total sobre servidores, armazenamento, e redes.
+
+### 🚀 Como usar IaaS no Azure:
+- **Criar Máquinas Virtuais (VMs)**: Escolha o sistema operacional, tamanho e tipo da VM.
+- **Gerenciamento de Redes Virtuais**: Configure redes, IPs e sub-redes.
+- **Armazenamento Escalável**: Utilize discos de armazenamento para seus dados.
+
+### Exemplos de uso:
+- Hospedagem de websites ou aplicativos que exigem controle total sobre o servidor.
+- Execução de sistemas legados que precisam ser mantidos em um ambiente seguro.
+
+---
+
+## ⚙️ 2. **PaaS (Plataforma como Serviço)**
+
+### O que é PaaS?
+PaaS oferece uma plataforma completa para desenvolvimento e implantação de aplicativos, sem se preocupar com a infraestrutura subjacente.
+
+### 🔧 Como usar PaaS no Azure:
+- **Desenvolvimento de Aplicações**: Use Azure App Service para hospedar aplicativos web e APIs.
+- **Bancos de Dados Gerenciados**: Implante bancos de dados SQL e NoSQL.
+- **Integração Contínua**: Utilize pipelines de CI/CD para entrega automatizada.
+
+### Exemplos de uso:
+- Desenvolvedores que querem focar no código sem gerenciar servidores.
+- Empresas que precisam de uma plataforma rápida para testar e lançar aplicativos.
+
+---
+
+## 🌐 3. **SaaS (Software como Serviço)**
+
+### O que é SaaS?
+SaaS é uma solução de software hospedada na nuvem, acessada via navegador, que não requer instalação ou manutenção pelo usuário final.
+
+### Exemplos de uso:
+- Aplicações como **Microsoft 365**, **Google Workspace**, ou **Salesforce**.
+- Serviços de email, CRM, e ferramentas de produtividade, disponíveis diretamente na web.
+
+---
+
+## Comparação entre IaaS, PaaS, e SaaS
+
+| Serviço     | Descrição                                       | Exemplos de uso                                      |
+|-------------|-------------------------------------------------|------------------------------------------------------|
+| **IaaS**    | Infraestrutura como serviço, com controle total | Hospedagem de VMs, armazenamento, redes              |
+| **PaaS**    | Plataforma como serviço, com gerenciamento simplificado | Desenvolvimento de aplicativos, banco de dados      |
+| **SaaS**    | Software como serviço, acessado via navegador   | Aplicativos como Microsoft 365, Google Workspace     |
+
+---
+
+## Saiba Mais
+
+Para mais informações, visite a [documentação oficial do Microsoft Azure](https://docs.microsoft.com/azure).
