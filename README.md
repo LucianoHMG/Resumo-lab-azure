@@ -1,4 +1,4 @@
-# Introdução ao Básico da Azure Cloud
+# Introdução ao Azure Cloud
 
 Este documento cobre os fundamentos da Azure Cloud, incluindo a criação de máquinas virtuais, conceitos básicos de segurança e data centers.
 
